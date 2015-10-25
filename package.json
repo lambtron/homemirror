@@ -1,0 +1,17 @@
+{
+  "name": "HomeMirror",
+  "description": "",
+  "version": "0.0.1",
+  "author": "Andy Jiang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lambtron/homemirror"
+  },
+  "engines": {
+    "node": "^4.0.x",
+    "npm": "^3.3.x"
+  },
+  "dependencies": {
+    "fiber": "1.0.0"
+  }
+}
