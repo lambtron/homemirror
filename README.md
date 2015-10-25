@@ -2,11 +2,10 @@
 
 > Web-based home mirror, inspired by [Hannah Mitt's project](https://github.com/HannahMitt/HomeMirror).
 
-![](https://cldup.com/Vw4FEaH8h1.png)
+![](https://cldup.com/DNBM8NSBSD.png)
 
 ## Install
 
-### [Meteor](https://www.meteor.com/)
 1. [Install Meteor](https://www.meteor.com/install)
 2. Clone this repo
 
@@ -20,9 +19,8 @@
     $ meteor deploy <your-name-here>.meteor.com
     ```
 
-### [Heroku](http://heroku.com/)
-
-[Deploy via Heroku]()
+4. Point your tablet to the URL and enable Kiosk mode
+5. Follow [Hannah Mitt's tutorial](https://github.com/HannahMitt/HomeMirror) for physically building the mirror
 
 ## Customize
 
@@ -68,6 +66,8 @@ if (Meteor.isClient) {
   {{> news}}
 </body>
 ```
+
+Have fun!
 
 ## License (MIT)
 
