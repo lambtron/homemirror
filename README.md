@@ -32,40 +32,40 @@ Every "widget" on the screen can be found in the [`./widgets`](https://github.co
 
 2. Define the `time` template in [`index.html`](https://github.com/lambtron/homemirror/blob/master/widgets/time/index.html)
 
-```
-<template name="time">
-  <div style="font-size: 3em">
-    {{time}}
-  </div>
-</template>
-```
+    ```
+    <template name="time">
+      <div style="font-size: 3em">
+        {{time}}
+      </div>
+    </template>
+    ```
 
 3. Define the logic for rendering the `time` template in [`index.js`](https://github.com/lambtron/homemirror/blob/master/widgets/time/index.js)
 
-```
-if (Meteor.isClient) {
-  Template.time.helpers({
-    time: function() {
-      return Chronos.liveMoment().format("hh:mma");
+    ```
+    if (Meteor.isClient) {
+      Template.time.helpers({
+        time: function() {
+          return Chronos.liveMoment().format("hh:mma");
+        }
+      });
     }
-  });
-}
-```
+    ```
 
 4. Add the `time` template to [`./client/index.html`](https://github.com/lambtron/homemirror/blob/master/client/index.html#L7)
 
-```
-<head>
-  <title>Mirror</title>
-</head>
+    ```
+    <head>
+      <title>Mirror</title>
+    </head>
 
-<body>
-  {{> date}}
-  {{> time}}
-  {{> weather}}
-  {{> news}}
-</body>
-```
+    <body>
+      {{> date}}
+      {{> time}}
+      {{> weather}}
+      {{> news}}
+    </body>
+    ```
 
 Have fun!
 
