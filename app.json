@@ -3,5 +3,13 @@
   "description": "Web-based HomeMirror",
   "repository": "https://github.com/lambtron/homemirror",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["homemirror", "home", "mirror"]
+  "keywords": ["homemirror", "home", "mirror"],
+  "addons": [
+    "mongolab:sandbox"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jordansissel/heroku-buildpack-meteor"
+    }
+  ]
 }
