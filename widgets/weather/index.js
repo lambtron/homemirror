@@ -37,7 +37,7 @@ if (Meteor.isClient) {
     if (Geolocation.latLng()) {
       computation.stop();
       Loc.insert(Geolocation.latLng());
-      Meteor.call('start');
+      Meteor.call('weatherStart');
     }
   });
 
@@ -66,7 +66,7 @@ if (Meteor.isServer) {
   });
 
   Meteor.methods({
-    start: function() {
+    weatherStart: function() {
       forecast();
       SyncedCron.start();
     }
