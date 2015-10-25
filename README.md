@@ -7,14 +7,14 @@
 ## Install
 
 ### [Meteor](https://www.meteor.com/):
-1. [Install Meteor](https://www.meteor.com/install)
-2. Clone this repo
+    1. [Install Meteor](https://www.meteor.com/install)
+    2. Clone this repo
 
 ```
 $ git clone git@github.com:lambtron/homemirror.git
 ```
 
-3. Deploy to Meteor
+    3. Deploy to Meteor
 
 ```
 $ meteor deploy <your-name-here>.meteor.com
