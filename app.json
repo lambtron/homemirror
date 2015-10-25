@@ -1,0 +1,7 @@
+{
+  "name": "HomeMirror",
+  "description": "Web-based HomeMirror",
+  "repository": "https://github.com/lambtron/homemirror",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["homemirror", "home", "mirror"]
+}
