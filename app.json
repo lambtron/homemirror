@@ -9,7 +9,7 @@
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/jordansissel/heroku-buildpack-meteor"
+      "url": "https://github.com/lambtron/heroku-buildpack-meteor"
     }
   ]
 }
