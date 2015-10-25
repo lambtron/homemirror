@@ -6,15 +6,19 @@
 
 ## Install
 
-### [Meteor](https://www.meteor.com/):
+### [Meteor](https://www.meteor.com/)
 1. [Install Meteor](https://www.meteor.com/install)
 2. Clone this repo
 
+    ```
     $ git clone git@github.com:lambtron/homemirror.git
+    ```
 
 3. Deploy to Meteor
 
+    ```
     $ meteor deploy <your-name-here>.meteor.com
+    ```
 
 ### [Heroku](http://heroku.com/)
 
@@ -22,13 +26,13 @@
 
 ## Customize
 
-I decided to use Meteor for its real-time nature and ability to organize server and client side JavaScript in the same folder.
+I decided to use Meteor for its real-time nature and ability to organize server and client side JavaScript in the same file.
 
-Every "widget" on the screen can be found in the [`./widgets`]() folder. Let's look at the [`time`]() widget as an example:
+Every "widget" on the screen can be found in the [`./widgets`](https://github.com/lambtron/homemirror/tree/master/widgets) folder. Let's look at the [`time`](https://github.com/lambtron/homemirror/tree/master/widgets/time) widget as an example:
 
 1. Create the folder `time` with `./time/index.html` and `./time/index.js`
 
-2. Define the `time` template in `index.html`
+2. Define the `time` template in [`index.html`](https://github.com/lambtron/homemirror/blob/master/widgets/time/index.html)
 
 ```
 <template name="time">
@@ -38,7 +42,7 @@ Every "widget" on the screen can be found in the [`./widgets`]() folder. Let's l
 </template>
 ```
 
-3. Define the logic for rendering the `time` template in `index.js`
+3. Define the logic for rendering the `time` template in [`index.js`](https://github.com/lambtron/homemirror/blob/master/widgets/time/index.js)
 
 ```
 if (Meteor.isClient) {
@@ -50,7 +54,7 @@ if (Meteor.isClient) {
 }
 ```
 
-4. Add the `time` template to `./client/index.html`
+4. Add the `time` template to [`./client/index.html`](https://github.com/lambtron/homemirror/blob/master/client/index.html#L7)
 
 ```
 <head>
