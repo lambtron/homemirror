@@ -1,8 +1,14 @@
 # Home Mirror
 
-> Web based home mirror, inspired by [Hannah Mitt's project](https://github.com/HannahMitt/HomeMirror).
+> Web-based home mirror, inspired by [Hannah Mitt's project](https://github.com/HannahMitt/HomeMirror).
 
 ![](https://cldup.com/Vw4FEaH8h1.png)
+
+## Install
+
+
+
+## Usage
 
 Decided to use Meteor so that I could organize each visual component in its own folder.
 
