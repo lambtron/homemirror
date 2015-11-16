@@ -22,7 +22,7 @@
     ```
 
 4. Point your tablet to the URL and enable Kiosk mode
-5. Follow [Hannah Mitt's tutorial](https://github.com/HannahMitt/HomeMirror) for physically building the mirror or [mine below](/#hardware)
+5. Follow [Hannah Mitt's tutorial](https://github.com/HannahMitt/HomeMirror) for physically building the mirror or [mine below](https://github.com/lambtron/homemirror#hardware)
 
 ## Customize
 
