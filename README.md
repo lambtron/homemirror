@@ -111,7 +111,7 @@ Voila!
 
 If the final product is facing the ground, this is how and where the pieces fit together:
 
-![](http://i.imgur.com/cW5pnyt.jpg)
+![](http://i.imgur.com/KXqUMOI.jpg)
 
 The completed mirror:
 
