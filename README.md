@@ -69,6 +69,52 @@ Every "widget" on the screen can be found in the [`./widgets`](https://github.co
 
 Have fun!
 
+## Hardware
+
+I followed [Hannah's guide](https://github.com/HannahMitt/HomeMirror) pretty closely.
+
+### Items
+
+- 12 inch by 18 inch by 1/8 inch two way mirror from [TAP Plastics](http://www.tapplastics.com/product/plastics/cut_to_size_plastic/two_way_mirrored_acrylic/558)
+- 7 inch used Samsung Galaxy Tab
+- [12 inch by 18 inch black construction paper, 50 sheets](http://www.amazon.com/gp/product/B000F7ASAU)
+- [Two-sided adhesive strips](http://www.amazon.com/gp/product/B0084M68IO)
+- [3M General Purpose 4S Spray Adhesive](http://www.amazon.com/gp/product/B000PCWRMC)
+
+### Directions
+
+#### 1. Cut a hole in the black construction paper for the device's viewport
+
+Make sure the size of the hole that you are cutting is the size of the device's _viewport_ and not the size of the device itself. You're going to put the two-sided adhesives along the edge of the construction paper that will stick to the device's bevel.
+
+#### 2. Glue the construction paper onto the back of the mirror
+
+Use the spray adhesive at about 6-8 inches away from the construction paper. Don't get the construction paper too wet. After several seconds, slowly stick the sprayed side onto the back side of the mirror.
+
+#### 3. Add adhesive strips to the back of the construction paper around the edge of the device's viewport cutout
+
+#### 4. Set the device up.. last chance to touch your device!
+
+The two (free) apps I needed to download were:
+- [Stay Alive!](https://play.google.com/store/apps/details?id=com.synetics.stay.alive&hl=en): for preventing the device from sleeping
+- [Kiosk Browser](http://appcrawlr.com/android/kiosk-browser-2): so that you can set the browser to the Home Mirror web app in full screen mode (probably not even necessary, but this is my first Android device and I struggled with even the most basic navigation)
+
+Set the Kiosk Browser to point to your Home Mirror web app domain.
+
+#### 5. Stick the device onto the two-way adhesive strips
+
+Voila!
+
+---
+
+If the final product is facing the ground, this is how and where the pieces fit together:
+
+![](http://i.imgur.com/cW5pnyt.jpg)
+
+The completed mirror:
+
+![](http://i.imgur.com/IxgfxQx.jpg)
+
 ## License (MIT)
 
 ```
