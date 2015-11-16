@@ -2,6 +2,8 @@
 
 > Web-based home mirror, inspired by [Hannah Mitt's project](https://github.com/HannahMitt/HomeMirror).
 
+![](https://cldup.com/LJ6cSwHEjW.png)
+
 ![](https://cldup.com/DNBM8NSBSD.png)
 
 ## Install
@@ -20,7 +22,7 @@
     ```
 
 4. Point your tablet to the URL and enable Kiosk mode
-5. Follow [Hannah Mitt's tutorial](https://github.com/HannahMitt/HomeMirror) for physically building the mirror
+5. Follow [Hannah Mitt's tutorial](https://github.com/HannahMitt/HomeMirror) for physically building the mirror or [mine below](/#hardware)
 
 ## Customize
 
