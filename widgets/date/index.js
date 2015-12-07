@@ -11,7 +11,7 @@ if (Meteor.isClient) {
 
   Template.date.helpers({
     date: function() {
-      return Chronos.liveMoment().format("dddd, MMM Do");
+      return Chronos.liveMoment().tz('America/Los_Angeles').format("dddd, MMM Do");
     }
   });
 }

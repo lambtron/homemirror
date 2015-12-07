@@ -1,6 +1,19 @@
 <template name="weather">
   <link rel="stylesheet" type="text/css" href="./icons/weather-icons.min.css">
-  <div>
-    {{min}}&deg; / {{max}}&deg; <i class="wi wi-{{icon}}"></i>
-  </div>
+  <table>
+  <tr id = "CurrentWeather">
+  <td> {{currentDay}}</td>
+  <td style = "font-weight:400;">{{current}}&deg;</td>
+  <td><i class="wi wi-{{currenticon}}"></i></td> 
+  <td style="color:#c5c5c5;">{{min}}&deg;</td>
+  </tr>
+      {{#each dailies}}
+	   <tr id = "DailyWeather">
+	   <td> {{time}}</td>
+	  <td>{{apparentTemperatureMax}}&deg;</td>
+	  <td><i class="wi wi-{{icon}}"></i></td>
+	<td style="color:#c5c5c5;">{{apparentTemperatureMin}}&deg;</td>
+	</tr>
+    {{/each}}
+  </table>
 </template>

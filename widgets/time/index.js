@@ -8,10 +8,12 @@ if (Meteor.isClient) {
   /**
    * Return time.
    */
+	
 
   Template.time.helpers({
     time: function() {
-      return Chronos.liveMoment().format("hh:mma");
-    }
+      return Chronos.liveMoment().tz('America/Los_Angeles').format("hh:mma");  
+	}
+
   });
 }

@@ -1,0 +1,22 @@
+{
+"news_api": {
+"apiKey": ""
+	},
+"twitter_api": {
+	"consumerKey":         "",
+	"consumerSecret":      "",
+	"accessToken":         "",
+	"accessTokenSecret":  ""
+	},
+"forecastio_api": {
+	"apiKey": ""
+	},
+"geonames_api": {
+	"username": ""
+	},
+"nytimes_api": {
+	"apiKey": ""
+	}
+}
+
+	

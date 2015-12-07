@@ -1,10 +1,20 @@
 <head>
   <title>Mirror</title>
+  <meta name="mobile-web-app-capable" content="yes">
 </head>
 
 <body>
+  {{> message}}
+  <table>
+  <tr>
+  <td> {{> image}} </td>
+  <td id = "essentials"> 
   {{> date}}
   {{> time}}
   {{> weather}}
-  {{> news}}
+  </td>
+  </tr>
+  </table>
+  {{> comics}}
+  {{> voice}}
 </body>
