@@ -136,10 +136,10 @@ function getTimezone() {
 	var get = Meteor.wrapAsync(HTTP.get);
 	var res = HTTP.get('http://api.geonames.org/timezoneJSON?lat=' + loc.lat + '&lng=' + loc.lng + '&username=' + username);
 	var content = JSON.parse(res.content);
-	var timezonify = {
-		timezoneid: content.timezoneId
+	var timezone = {
+		'timezoneid': content.timezoneId
 	};
-	Timezone.insert(timezonify);
+	Timezone.insert(timezone);
 }
  
  

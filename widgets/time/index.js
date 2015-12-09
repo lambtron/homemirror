@@ -12,7 +12,8 @@ if (Meteor.isClient) {
 
   Template.time.helpers({
     time: function() {
-      return Chronos.liveMoment().tz('America/Los_Angeles').format("hh:mma");  
+		var timezone = Timezone.findOne().timezoneid;
+		return Chronos.liveMoment().tz(timezone).format("hh:mma");  
 	}
 
   });
