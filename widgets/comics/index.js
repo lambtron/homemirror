@@ -23,12 +23,7 @@ if (Meteor.isClient) {
 	  },
 	  alt: function(){
 		  return Comics.findOne().alt;
-	  },
-	  tasks: [
-		{ text: "This is task 1" },
-		{ text: "This is task 2" },
-		{ text: "This is task 3" }
-    ]
+	  }
   });
   
 }
@@ -47,6 +42,7 @@ if (Meteor.isServer) {
   
   /** content.results.length
  * Cronjob.
+ * Get a comic at 3:30 pm everyday or when the server reloads
  */
 
 SyncedCron.add({

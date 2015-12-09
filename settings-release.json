@@ -1,6 +1,6 @@
 {
 "news_api": {
-"apiKey": ""
+	"apiKey": ""
 	},
 "twitter_api": {
 	"consumerKey":         "",
@@ -14,9 +14,9 @@
 "geonames_api": {
 	"username": ""
 	},
-"nytimes_api": {
-	"apiKey": ""
+"public": {
+	"fragment1": "Dividing a sentence like so, allows for an",
+	"emoji": "em em-smiley",
+	"fragment2": "in between"
 	}
 }
-
-	

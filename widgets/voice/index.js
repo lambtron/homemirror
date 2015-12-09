@@ -5,14 +5,13 @@
 	Template.voice.onRendered(() => {
 	Meteor.setTimeout( function() {
 	Goodbye();	
-	}, 3000);	
+	}, 10000);	
     var commands = {
       'Wake up': function() {
         console.log('Hello world!');
-		console.log(Timezone.findOne().timezoneid);
 		document.getElementById('cover').style.width = "0";
 		document.getElementById('cover').style.height = "0";     
-		var handle = Meteor.setTimeout(function() {Goodbye();},10000);
+		var handle = Meteor.setTimeout(function() {Goodbye();},30000);
 		Session.set("handleid",handle);
 	  },
 
