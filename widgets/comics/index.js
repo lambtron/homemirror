@@ -48,7 +48,7 @@ if (Meteor.isServer) {
 SyncedCron.add({
 	name: 'Get xkcd',
 	schedule: function(parser) {
-     return parser.cron('30 15 ? * *');
+    return parser.cron('0 30 15 1/1 * ? *');
    },
    job: xkcd
 });
@@ -62,12 +62,12 @@ function xkcd(){
 	
 	//Save to Collection
 	Comics.remove({});
-	var comics = {
+	var xkcdcomics = {
 		title: content.title,
 		img: content.img,
 		alt: content.alt
 	};
-    Comics.insert(comics);
+    Comics.insert(xkcdcomics);
   }
 
 

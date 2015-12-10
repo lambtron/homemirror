@@ -24,7 +24,7 @@ http
 astronomerio:core
 remcoder:chronos
 autopublish
-percolatestudio:synced-cron
 force-ssl
 osxi:annyang
 mrt:moment-timezone
+percolate:synced-cron
