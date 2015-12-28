@@ -1,0 +1,19 @@
+
+#title {
+text-align: left;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+}
+#image1 {
+	float: left;
+	max-height: 600px;
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+}
+#alt {
+	font-size: 0.4em;
+	clear:both;
+	text-align: left;
+	color: #c5c5c5;
+	
+}

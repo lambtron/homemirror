@@ -1,0 +1,15 @@
+<template name="image">
+  <div style = "text-align:left">
+	{{#if isdefault}}
+	<div>
+	<img src=".\photos\image.JPG" style ="max-height:650px; max-width:650px;" >
+	</div>
+	{{else}}
+    {{#each photourl}}
+      <div>
+        <img src="{{this.url}}" style ="max-height:650px; max-width:650px;" >
+      </div>
+    {{/each}}
+	{{/if}}
+ </div>
+ </template>

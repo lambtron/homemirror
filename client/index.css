@@ -4,10 +4,25 @@ html, body {
   color: white;
   font-family: "San Francisco";
   font-weight: 100;
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-align: right;
   margin: 0;
   padding: 0;
+}
+html,h1 {
+	text-align: left
+}
+html, div {
+	padding: : 499;
+}
+html,table{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#essentials{
+	vertical-align: top;
+	width: 10.2em;
 }
 
 /** Ultra Light */
