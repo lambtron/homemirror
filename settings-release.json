@@ -14,9 +14,11 @@
 "geonames_api": {
 	"username": ""
 	},
+"telegram_api": {
+	"token": "",
+	"Testtoken": ""
+	},
 "public": {
-	"fragment1": "Dividing a sentence like so, allows for an",
-	"emoji": "em em-smiley",
-	"fragment2": "in between"
+	"defaultmessage":   "Hello World!"
 	}
 }

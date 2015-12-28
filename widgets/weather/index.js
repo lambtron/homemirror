@@ -78,7 +78,6 @@ if (Meteor.isServer) {
   Meteor.methods({
     weatherStart: function() {
 	  forecast();
-      SyncedCron.start();
     },
 	startTimezone: function() {
 		getTimezone();
